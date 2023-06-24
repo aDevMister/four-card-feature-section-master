@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.first h1{
+    font-family: 'poppins' sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+
+}
+
+.rel{
+    color: grey;
+    font-size: 32px;
+    font-family: 'poppins' sans-serif;
+    font-weight: 200;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:hsl(229, 6%, 66%);
+    width: 65%;
+    padding: 20px;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.double{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.img{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    box-shadow: 0 4px 4px rgb(223, 203, 203);
+    padding: 15px 20px;
+    font-family: 'poppins';
+    border-radius : 10px;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-top: 5px solid hsl(0, 78%, 62%);
+    box-shadow: 0 4px 4px rgb(223, 203, 203);
+    padding: 15px 20px;
+    font-family: 'poppins';
+    border-radius: 10px;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    box-shadow: 0 4px 4px rgb(223, 203, 203);
+    padding: 15px 20px;
+    font-family: 'poppins';
+    border-radius: 10px;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    box-shadow: 0 4px 4px rgb(223, 203, 203);
+    padding: 15px 20px;
+    font-family: 'poppins';
+    border-radius: 10px;
+}
+
+.one p, .two p, .three p, .four p {
+    color: hsl(229, 6%, 66%);
+}
+
+@media screen and (max-width:900px) {
+    .second{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .double{
+        gap: 50px;
+    }
+    .text {
+        width: 80%;
+    }
+    
+}
